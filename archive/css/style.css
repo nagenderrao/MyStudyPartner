@@ -1,0 +1,92 @@
+/*
+ Product Name: Google Plus & Youtube
+ Product URI: http://s497438007.onlinehome.us/index.php
+ Description: Get Keyword Search Data and Comments
+ Developed By : http://genextwebs.com
+*/
+body {
+font-family: 'trebuchet MS', 'Lucida sans', Arial;
+font-size: 14px;
+color: #444;
+}
+
+h1 {
+        text-shadow: -1px 1px 1px #C2C2E8;
+}
+li {
+    position: relative;
+    padding-left: 11px;
+    margin:0 0 3px 0;
+}
+.comment_date
+{
+font-size: 13px;
+color: #900000;
+padding-left:10px;
+}
+.current
+{
+cursor:pointer;
+color: #900000;
+}
+
+a{
+font-size: 13px;
+color: #336699;
+}
+
+.bordered {
+border: solid #ccc 1px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 1px 1px #ccc;
+-moz-box-shadow: 0 1px 1px #ccc;
+box-shadow: 0 1px 1px #ccc;
+}
+
+.bordered td:first-child, .bordered th:first-child {
+border-left: none;
+}
+
+thead {
+display: table-header-group;
+vertical-align: middle;
+border-color: inherit;
+}
+
+table {
+border-spacing: 0;
+width: 100%;
+}
+
+.bordered td, .bordered th {
+border-left: 1px solid #ccc;
+border-top: 1px solid #ccc;
+padding: 10px;
+text-align: left;
+}
+
+.bordered th {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #336699), color-stop(1, #336699) );
+background-color:#336699;
+color:#fff;
+}
+
+.record_head {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #D4E7EE), color-stop(1, #D4E7EE) );
+background-color:#D4E7EE;
+color:#000;
+}
+
+.record_data {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FCFCFC), color-stop(1, #FCFCFC) );
+background-color:#FCFCFC;
+color:#000;
+}
+
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
